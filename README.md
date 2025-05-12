@@ -25,4 +25,65 @@ Tools & Libraries Used
 - **Seaborn** – Advanced and aesthetic plotting
 
 ---
+ ▶️ How to Run the Project
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/Jnasimiyu/covid-country-analysis.git
+   cd covid-country-analysis
+Install required packages (if not already installed):
+
+pip install pandas matplotlib seaborn
+Start Jupyter Notebook:
+
+
+Open and run the notebook file named covid_analysis.ipynb.
+
+⚠️ Make sure the file country_wise_latest.csv is in the same directory as the notebook.
+
+📊 Visualizations Included
+✅ Bar Chart (Top 10 countries by Confirmed Cases and Deaths)
+
+✅ Line Chart (Confirmed vs Recovered cases)
+
+✅ Histogram (Distribution of Deaths)
+
+✅ Scatter Plot (Confirmed vs Recovered)
+
+✅ Pie Chart (Top and Bottom 5 countries by Deaths)
+
+✅ Donut Chart (Same as pie with inner radius)
+
+🔍 Insights & Reflections
+The top 10 countries by confirmed cases account for a large proportion of global COVID-19 cases.
+
+There is a high positive correlation between Confirmed and Recovered cases.
+
+Smaller or less affected countries had disproportionately high Death Rates when population was considered.
+
+Pie charts helped in presenting proportional impacts visually.
+
+This project enhanced understanding of real-world data cleaning and visual storytelling with Python.
+
+📁 Folder Structure
+Copy
+Edit
+📦 covid-country-analysis
+├── 📄 country_wise_latest.csv
+├── 📔 covid_analysis.ipynb
+
+📌 Acknowledgments
+Dataset: country_wise_latest.csv (typically from Kaggle)
+
+Libraries: Pandas, Matplotlib, Seaborn
+
+Inspired by global data analysis needs during the pandemic
+
+🧠 Future Work (Optional Ideas)
+Time-series visualization if time-based data is added
+
+Interactive dashboard with Plotly or Dash
+
+Machine learning to predict case growth or death rates
+
 
