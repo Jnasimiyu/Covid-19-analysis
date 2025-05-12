@@ -66,11 +66,11 @@ Pie charts helped in presenting proportional impacts visually.
 This project enhanced understanding of real-world data cleaning and visual storytelling with Python.
 
 📁 Folder Structure
-Copy
-Edit
 📦 covid-country-analysis
 ├── 📄 country_wise_latest.csv
 ├── 📔 covid_analysis.ipynb
+└── 📄 README.md
+
 
 📌 Acknowledgments
 Dataset: country_wise_latest.csv (typically from Kaggle)
